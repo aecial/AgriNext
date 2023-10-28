@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.15",
+    "@mui/icons-material": "^5.14.15",
+    "@mui/joy": "^5.0.0-beta.12",
+    "@mui/material": "^5.14.15",
+    "next": "14.0.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10",
     "postcss": "^8",
+    "prisma": "^5.5.2",
     "tailwindcss": "^3"
   }
 }
