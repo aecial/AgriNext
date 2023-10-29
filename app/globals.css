@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.content-height {
+  height: calc(100vh - (56px * 2));
+}
