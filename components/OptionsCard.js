@@ -8,10 +8,10 @@ const OptionsCard = ({ imageSrc, imageAlt, cropType }) => {
           src={imageSrc}
           loading="lazy"
           alt={imageAlt}
-          className="object-fill mx-auto"
+          className=" object-cover mx-auto"
         />
       </div>
-      <h3 className="text-center text-2xl font-bold">Sitaw</h3>
+      <h3 className="text-center text-2xl font-bold">{cropType}</h3>
       <CardActions className="flex justify-center items-center">
         <Button
           component="a"
