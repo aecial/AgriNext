@@ -9,9 +9,17 @@ datasource db {
   url = env("POSTGRES_PRISMA_URL") // uses connection pooling
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
-model cropTypes {
+model User {
   id        Int      @id @default(autoincrement())
-  crop_type      String
+  name String
+  email String @unique
   image String
+  role Role @default(FARMER)
   createdAt DateTime @default(now())
+
+}
+enum Role {
+  FARMER
+  CONSUMER
+  ADMIN
 }
