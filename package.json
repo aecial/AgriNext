@@ -18,11 +18,13 @@
     "@prisma/client": "^5.5.2",
     "@vercel/postgres": "^0.5.0",
     "next": "14.0.0",
+    "npm": "^10.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10",
+    "next-auth": "^4.24.4",
     "postcss": "^8",
     "prisma": "^5.5.2",
     "tailwindcss": "^3"
